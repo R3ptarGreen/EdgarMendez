@@ -26,6 +26,7 @@ const HomeCards = () => {
 			<HomeCardInfo className={`w-full`} gitHubLink={dataCheck.gitHub} linkedInLink={dataCheck.linkedIn}/>
 			<HomeCardContent
 				className={styleItem}
+				to={'/projects'}
 				header={'Projects'}
 				img={'projectsMockup'}
 				footer={'Personal Projects'}

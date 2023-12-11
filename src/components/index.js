@@ -5,6 +5,7 @@ export { default as ModalComponent } from './atoms/modalComponent/ModalComponent
 export * from './index';
 export { default as BiographyCardContent } from './molecules/BiographyCardContent';
 export { default as HomeCardContent } from './molecules/HomeCardContent';
+export { default as ProjectsCardContainer } from './molecules/ProjectsCardContainer';
 export { default as SideNav } from './molecules/SideNav';
 export { default as BiographyCarrousel } from './molecules/biographyCard/BiographyCarrousel';
 export { default as BiographyEdgar } from './molecules/biographyCard/BiographyEdgar';
@@ -12,8 +13,10 @@ export { default as BiographyToolStack } from './molecules/biographyCard/Biograp
 export { default as HomeCardFooter } from './molecules/homeCardBlank/HomeCardFooter';
 export { default as HomeCardInfo } from './molecules/homeCardBlank/HomeCardInfo';
 export { default as HomeCardIntro } from './molecules/homeCardBlank/HomeCardIntro';
+export { default as ProjectsCard } from './molecules/projectsCard/ProjectsCard';
 export { default as BiographyCards } from './organisms/biografhyCards/BiographyCards';
 export { default as HomeCards } from './organisms/homeCards/HomeCards';
+export { default as ProjectsCards } from './organisms/projectsCards/ProjectsCards';
 export { default as BiographyTemplate } from './templates/BiographyTemplate';
 export { default as HomeTemplate } from './templates/HomeTemplate';
-export * from './templates/ProjectsCards';
+export { default as ProjectsTemplates } from './templates/ProjectsTemplates';

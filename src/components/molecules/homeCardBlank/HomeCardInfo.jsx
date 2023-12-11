@@ -45,14 +45,14 @@ const HomeCardInfo = ({ className, gitHubLink, linkedInLink }) => {
 			</div>
 			<div className='grid grid-cols-2'>
 				<div className='grid gap-4'>
-					<p>Social</p>
+					<p className='text-primary'>Social</p>
 					<div className='grid grid-cols-2 max-w-fit gap-2'>
 						<Icon icon={'linkedIn'} linkWeb={linkedInLink} />
 						<Icon icon={'github'} linkWeb={gitHubLink} />
 					</div>
 				</div>
 				<div className='grid gap-4'>
-					<p>Info</p>
+					<p className='text-primary'>Info</p>
 					<a href=''>Resume</a>
 				</div>
 			</div>

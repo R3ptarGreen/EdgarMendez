@@ -1,6 +1,7 @@
+import {HomePage, BiographyPage, ProjectsPage} from '../pages/index'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from '../App'
-import {HomePage, BiographyPage} from '../pages/index'
+
 const AppRouter = () => {
     const router = createBrowserRouter([
         {
@@ -8,7 +9,8 @@ const AppRouter = () => {
             element: <App/>,
             children:[
                 {path: '/', element:<HomePage/>},
-                {path:'/biography', element: <BiographyPage/>}
+                {path:'/biography', element: <BiographyPage/>},
+                {path:'/projects', element: <ProjectsPage/>}
             ]
         }
     ]

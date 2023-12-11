@@ -28,7 +28,7 @@ const HomeCardBiography = ({ className, header, footer, span, img, to }) => {
 						<Img className={'max-w-80 max-h-80 rounded-2xl'} img={img} />
 					</main>
 					<footer className='text-start'>
-						<p className='text-lg font-secondary text-primary'>{footer}</p>
+						<p className='text-lg font-secondary text-secondary'>{footer}</p>
 						<span className='text-sm'>{span}</span>
 					</footer>
 				</div>
