@@ -1,0 +1,17 @@
+[
+    {   
+        "id": "ShopWave",
+        "title": "ShopWave",
+        "img": "ShopWave",
+        "linkWebRepo": "https://github.com/R3ptarGreen/ShopWave-DemoE-commerce-project.git",
+        "linkWeb":""
+
+    },
+    {
+        "id": "Kuidaore",
+        "title": "Kuidaore",
+        "img": "Kuidaore",
+        "linkWebRepo": "https://github.com/R3ptarGreen/Kuidaore-Restaurant-Project.git",
+        "linkWeb": ""
+    }
+]

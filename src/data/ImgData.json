@@ -1,0 +1,20 @@
+{
+    "biography": [
+        {
+            "id":"1",
+            "img":"edgarHotel"
+        },
+        {
+            "id":"2",
+            "img":"cancun"
+        },
+        {
+            "id":"3",
+            "img":"code"
+        },
+        {
+            "id":"4",
+            "img":"food"
+        }
+    ]
+}

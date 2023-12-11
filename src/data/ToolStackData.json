@@ -1,0 +1,46 @@
+[
+    {
+        "id":"1",
+        "icon":"figma",
+        "linkWeb": "https://www.figma.com/"
+    },
+    {
+        "id":"2",
+        "icon":"html",
+        "linkWeb": "https://developer.mozilla.org/es/docs/Web/HTML"
+    },
+    {    "id":"3",
+        "icon":"css",
+        "linkWeb": "https://developer.mozilla.org/es/docs/Web/CSS"
+    },
+    {
+        "id":"4",
+        "icon":"tailwind",
+        "linkWeb": "https://tailwindcss.com/"
+    },
+    {
+        "id":"5",
+        "icon":"sass",
+        "linkWeb": "https://sass-lang.com/"
+    },
+    {
+        "id":"6",
+        "icon":"JS",
+        "linkWeb": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+    },
+    {
+        "id":"7",
+        "icon":"vite",
+        "linkWeb": "https://vitejs.dev/"
+    },
+    {
+        "id":"8",
+        "icon":"react",
+        "linkWeb": "https://es.react.dev/"
+    },
+    {
+        "id":"9",
+        "icon":"git",
+        "linkWeb": "https://git-scm.com/"
+    }
+]
