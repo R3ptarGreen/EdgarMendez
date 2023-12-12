@@ -1,15 +1,17 @@
 import { Card } from '@nextui-org/react';
-import {AccordionComponent, Img} from '../../index'
-import PropTypes from 'prop-types'
+import { AccordionComponent, Img } from '../../index';
+import PropTypes from 'prop-types';
 
-const BiographyEdgar = ({className}) => {
-   
+const BiographyEdgar = ({ className }) => {
 	return (
 		<>
 			<Card
-			className={`grid w-full xl:max-h-80 h-fit rounded-lg p-2 col-span-2 ${className}`}>
+				className={`grid w-full xl:max-h-80 h-fit rounded-lg p-2 col-span-2 ${className}`}
+			>
 				<header>
-					<h2 className='font-secondary text-xl text-primary'>Edgar Mendez - Front-End Developer</h2>
+					<h2 className='font-secondary text-xl text-primary'>
+						Edgar Mendez - Front-End Developer
+					</h2>
 				</header>
 				<main className='grid content-center grid-cols-1 md:grid-cols-3'>
 					<div className='grid justify-center items-center'>
@@ -17,7 +19,6 @@ const BiographyEdgar = ({className}) => {
 					</div>
 					<div className='col-span-2'>
 						<AccordionComponent
-
 							title={'My Beginning'}
 							text={`Born and raised in Cancún, México.
                             My journey began as a student of industrial engineering and a waiter's assistant in a hotel chain. Eventually, my positive aptitudes allowed me to stand out; however, due to pandemic circumstances, I was negatively impacted, and my engineering career became unsustainable, leading to a challenging phase in my personal and professional life, which prompted me to change careers.`}
@@ -35,6 +36,6 @@ const BiographyEdgar = ({className}) => {
 	);
 };
 BiographyEdgar.propTypes = {
-	className: PropTypes.string
-}
+	className: PropTypes.string,
+};
 export default BiographyEdgar;

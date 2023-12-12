@@ -1,8 +1,8 @@
 import { Modal, ModalContent, ModalBody } from '@nextui-org/react';
 import { Img } from '../../index';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-const ModalComponent = ({isOpen,onOpenChange, img}) => {
+const ModalComponent = ({ isOpen, onOpenChange, img }) => {
 	return (
 		<div>
 			<Modal
@@ -26,8 +26,8 @@ const ModalComponent = ({isOpen,onOpenChange, img}) => {
 	);
 };
 ModalComponent.propTypes = {
-    isOpen: PropTypes.bool,
-    onOpenChange: PropTypes.func,
-    img: PropTypes.string
-}
+	isOpen: PropTypes.bool,
+	onOpenChange: PropTypes.func,
+	img: PropTypes.string,
+};
 export default ModalComponent;

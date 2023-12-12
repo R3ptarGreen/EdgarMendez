@@ -1,20 +1,21 @@
 import { Card } from '@nextui-org/react';
-import { useFetch } from '../../../hooks/index';
 import { Icon } from '../../index';
 import PropTypes from 'prop-types';
-
+import toolData from '../../../data/ToolStackData.json'
 const BiographyToolStack = ({ className }) => {
-	const { data } = useFetch('src/data/ToolStackData.json');
-	const IconDataCheck = data ? data : [];
+	
+	const IconDataCheck = toolData ? toolData : [];
 	return (
 		<>
 			<Card
-            isPressable
-            isHoverable
+				isPressable
+				isHoverable
 				className={`cursor-default grid w-full xl:max-h-80 h-fit rounded-lg p-2 justify-center col-span-2 md:col-span-1 ${className}`}
 			>
 				<header>
-					<h2 className='font-secondary text-xl text-primary text-left'>Tool Stack</h2>
+					<h2 className='font-secondary text-xl text-primary text-left'>
+						Tool Stack
+					</h2>
 				</header>
 				<main className='flex flex-wrap gap-4 w-fit'>
 					{IconDataCheck.map(item => (

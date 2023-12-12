@@ -3,9 +3,7 @@ const HomeCardFooter = ({ className }) => {
 	return (
 		<footer className={`grid content-end cursor-default  ${className}`}>
 			<div className='text-end'>
-                <p>
-                    Coded By Edgar Mendez
-                </p>
+				<p>Coded By Edgar Mendez</p>
 			</div>
 		</footer>
 	);

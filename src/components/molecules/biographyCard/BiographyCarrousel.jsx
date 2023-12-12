@@ -1,18 +1,19 @@
 import PropTypes from 'prop-types';
-import { useFetch } from '../../../hooks/index';
 import { Img, ModalComponent } from '../../index';
 import { Card, useDisclosure } from '@nextui-org/react';
 import { useState } from 'react';
+import imgData from '../../../data/ImgData.json'
 const BiographyCarrousel = ({ className }) => {
-	const { data } = useFetch('src/data/ImgData.json');
-	const imgDataCheck = data ? data.biography : [];
-	const { isOpen, onOpen, onOpenChange } = useDisclosure();
-	const [currentImg, setCurrentImg] = useState(null)
+	
+	const imgDataCheck = imgData ? imgData.biography : [];
 
-	const handleOpenModal = (key) => {
-		setCurrentImg(key)
-		onOpen()
-	}
+	const { isOpen, onOpen, onOpenChange } = useDisclosure();
+	const [currentImg, setCurrentImg] = useState(null);
+
+	const handleOpenModal = key => {
+		setCurrentImg(key);
+		onOpen();
+	};
 
 	return (
 		<>

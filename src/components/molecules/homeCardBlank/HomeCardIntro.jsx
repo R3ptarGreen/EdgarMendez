@@ -5,7 +5,9 @@ const HomeCardIntro = ({ className }) => {
 			<div className='cursor-default grid gap-8'>
 				<h1 className='text-6xl font-secondary text-primary'>Edgar Mendez</h1>
 				<div>
-					<h2 className='text-3xl font-secondary text-secondary'>Front-End Developer</h2>
+					<h2 className='text-3xl font-secondary text-secondary'>
+						Front-End Developer
+					</h2>
 					<p>Specializing in JavaScript environment</p>
 				</div>
 			</div>

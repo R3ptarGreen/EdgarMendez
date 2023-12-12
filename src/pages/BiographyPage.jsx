@@ -1,10 +1,10 @@
-import {BiographyTemplate} from '../components/index'
+import { BiographyTemplate } from '../components/index';
 const BiographyPage = () => {
-  return (
-    <>
-        <BiographyTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<BiographyTemplate />
+		</>
+	);
+};
 
-export default BiographyPage
+export default BiographyPage;

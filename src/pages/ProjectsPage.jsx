@@ -1,8 +1,10 @@
-import {ProjectsTemplates} from '../components/index'
+import { ProjectsTemplates } from '../components/index';
 const ProjectsPage = () => {
-	return <>
-        <ProjectsTemplates/>
-    </>;
+	return (
+		<>
+			<ProjectsTemplates />
+		</>
+	);
 };
 
 export default ProjectsPage;

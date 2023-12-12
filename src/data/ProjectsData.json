@@ -1,19 +1,18 @@
 [
-    {   
-        "id": "ShopWave",
-        "title": "ShopWave",
-        "img": "ShopWave",
-        "linkWebRepo": "https://github.com/R3ptarGreen/ShopWave-DemoE-commerce-project.git",
-        "linkWeb":"",
-        "description": ""
-
-    },
-    {
-        "id": "Kuidaore",
-        "title": "Kuidaore",
-        "img": "Kuidaore",
-        "linkWebRepo": "https://github.com/R3ptarGreen/Kuidaore-Restaurant-Project.git",
-        "linkWeb": "",
-        "description":""
-    }
+	{
+		"id": "ShopWave",
+		"title": "ShopWave",
+		"img": "ShopWave",
+		"linkWebRepo": "https://github.com/R3ptarGreen/ShopWave-DemoE-commerce-project.git",
+		"linkWeb": "https://incomparable-maamoul-d8af1b.netlify.app/",
+		"description": "ShopWave is a project to test myself with react, implementing everything I know about the framework, using external resources to learn"
+	},
+	{
+		"id": "Kuidaore",
+		"title": "Kuidaore",
+		"img": "Kuidaore",
+		"linkWebRepo": "https://github.com/R3ptarGreen/Kuidaore-Restaurant-Project.git",
+		"linkWeb": "https://657817593dc55c2bf8bc9cd9--helpful-figolla-5fce0d.netlify.app/#/",
+		"description": "Kuidaore is a project designed and coded by Edgar Mendez. It's just a prototype to implement Map API."
+	}
 ]

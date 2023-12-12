@@ -1,11 +1,17 @@
-import { ProjectsCard } from "../index"
+import { ProjectsCard } from '../index';
 
 const ProjectsCardContainer = () => {
-  return (
-    <>
-      <ProjectsCard/>
-    </>
-  )
-}
+	const handlePress = () => {
+		setTimeout(() => {
+			
+		}, 500)
+	}
 
-export default ProjectsCardContainer
+	return (
+		<>
+			<ProjectsCard onPress={handlePress}/>
+		</>
+	);
+};
+
+export default ProjectsCardContainer;

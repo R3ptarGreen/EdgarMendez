@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: HindRegular;
-    src: url('/public/assets/fonts/HindSiliguri-Regular.ttf');
-    font-weight: 400;
+	font-family: HindRegular;
+	src: url('/public/assets/fonts/HindSiliguri-Regular.ttf');
+	font-weight: 400;
 }
 @font-face {
-    font-family: HindSemiBold;
-    src: url('/public/assets/fonts/HindSiliguri-SemiBold.ttf');
-    font-weight: 600;
+	font-family: HindSemiBold;
+	src: url('/public/assets/fonts/HindSiliguri-SemiBold.ttf');
+	font-weight: 600;
 }
-
