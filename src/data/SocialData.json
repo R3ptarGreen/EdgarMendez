@@ -1,4 +1,22 @@
 {
-	"gitHub": "https://github.com/R3ptarGreen",
-	"linkedIn": "https://www.linkedin.com/in/edgar-mendez-fed/"
+	"social":[
+	{	
+		"icon":"github",
+		"linkWeb": "https://github.com/R3ptarGreen"
+	},
+	{
+		"icon": "linkedIn",
+		"linkWeb": "https://www.linkedin.com/in/edgar-mendez-fed/"
+	},
+	{
+		"icon":"Email",
+		"linkWeb": "mailto:contact@edgarmendez.site"
+	}
+	],
+	"info":[
+	{
+		"icon":"resume",
+		"linkWeb":"https://drive.google.com/file/d/1NABPpZ14Fl4MXfxYce9_9wq8KKWrMM27/view"
+	}
+	]
 }

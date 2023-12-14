@@ -2,9 +2,11 @@ import { IconLink, Img } from '../../index';
 import PropTypes from 'prop-types';
 import { Card, CardBody, CardFooter } from '@nextui-org/react';
 import projectsData from '../../../data/ProjectsData.json';
-const HomeCardInfo = ({ className, gitHubLink, linkedInLink }) => {
+import socialData from '../../../data/SocialData.json';
+const HomeCardInfo = ({ className }) => {
 	const selectedObjects = projectsData ? projectsData.slice(0, 2) : [];
-
+	const selectedSocial =  socialData ? socialData.social : [];
+	const selectedInfo = socialData ? socialData.info : [];
 	const handlePress = item => {
 		setTimeout(() => {
 			window.open(item.linkWeb, '_blank');
@@ -37,25 +39,34 @@ const HomeCardInfo = ({ className, gitHubLink, linkedInLink }) => {
 									img={item.img}
 								/>
 							</CardBody>
-							<CardFooter className='text-small justify-between '>
+							<CardFooter className='text-small justify-between'>
 								<b>{item.title}</b>
-									<IconLink icon={'github'} linkWeb={item.linkWebRepo} />
+								<IconLink className={'w-fit'} icon={'github'} linkWeb={item.linkWebRepo} />
 							</CardFooter>
 						</Card>
 					))}
 				</div>
 			</div>
+			
 			<div className='grid grid-cols-2'>
 				<div className='grid gap-4'>
 					<p className='text-primary'>Social</p>
-					<div className='grid grid-cols-2 max-w-fit gap-2'>
-						<IconLink icon={'linkedIn'} linkWeb={linkedInLink} />
-						<IconLink icon={'github'} linkWeb={gitHubLink} />
+					<div className='flex w-fit gap-2'>
+						{selectedSocial.map((item, index) => (
+							<IconLink
+								className={'w-fit'}
+								icon={item.icon}
+								linkWeb={item.linkWeb}
+								key={index}
+							/>
+						))}
 					</div>
 				</div>
-				<div className='grid gap-4'>
+				<div className='grid gap-4 w-fit'>
 					<p className='text-primary'>Info</p>
-					<a href=''>Resume</a>
+					{selectedInfo.map((item,index)=>(
+					<IconLink icon={item.icon} linkWeb={item.linkWeb} key={index}/>
+					))}	
 				</div>
 			</div>
 		</div>
@@ -63,8 +74,6 @@ const HomeCardInfo = ({ className, gitHubLink, linkedInLink }) => {
 };
 HomeCardInfo.propTypes = {
 	className: PropTypes.string,
-	gitHubLink: PropTypes.string,
-	linkedInLink: PropTypes.string,
 };
 
 export default HomeCardInfo;

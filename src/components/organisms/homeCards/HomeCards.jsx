@@ -4,10 +4,8 @@ import {
 	HomeCardInfo,
 	HomeCardFooter,
 } from '../../index';
-import socialData from '../../../data/SocialData.json'
 
 const HomeCards = () => {
-	const dataCheck = socialData ? socialData || [] : [];
 
 	const styleItem = `w-full h-unit-8xl [box-shadow:-2px_-2px_10px_0px_rgba(255,_255,_255,_0.12),_10px_10px_15px_0px_rgba(0,_0,_0,_0.25)] backdrop-filter
 	backdrop-blur-[30px] cursosr pointer  h-full w-full animate-once animate-fade-down hover:bg-background`;
@@ -25,8 +23,6 @@ const HomeCards = () => {
 			/>
 			<HomeCardInfo
 				className={`w-full animate-fade-down animate-once`}
-				gitHubLink={dataCheck.gitHub}
-				linkedInLink={dataCheck.linkedIn}
 			/>
 			<HomeCardContent
 				className={styleItem}
