@@ -4,11 +4,11 @@
 
 @font-face {
 	font-family: HindRegular;
-	src: url('assets/fonts/HindSiliguri-Regular.ttf');
+	src: url('/assets/fonts/HindSiliguri-Regular.ttf');
 	font-weight: 400;
 }
 @font-face {
 	font-family: HindSemiBold;
-	src: url('assets/fonts/HindSiliguri-SemiBold.ttf');
+	src: url('/assets/fonts/HindSiliguri-SemiBold.ttf');
 	font-weight: 600;
 }
