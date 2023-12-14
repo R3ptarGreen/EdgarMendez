@@ -1,9 +1,9 @@
 import { HomePage, BiographyPage, ProjectsPage } from '../pages/index';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import App from '../App';
 
 const AppRouter = () => {
-	const router = createBrowserRouter([
+	const router = createHashRouter([
 		{
 			path: '/',
 			element: <App />,

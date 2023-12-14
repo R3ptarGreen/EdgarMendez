@@ -28,7 +28,7 @@ const BiographyEdgar = ({ className }) => {
 
                             I am proud and happy with the change, especially excited about new opportunities and how much effort I have put into it.`}
 							title3={'Hobbies'}
-							text3={'Cooking and watching series or movies'}
+							text3={'👨‍🍳Cooking, 🎬Watching series or movies & 📚Reading'}
 						/>
 					</div>
 				</main>
