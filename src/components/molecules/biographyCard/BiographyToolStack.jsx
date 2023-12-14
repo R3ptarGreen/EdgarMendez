@@ -1,5 +1,5 @@
 import { Card } from '@nextui-org/react';
-import { Icon } from '../../index';
+import { IconLink } from '../../index';
 import PropTypes from 'prop-types';
 import toolData from '../../../data/ToolStackData.json'
 const BiographyToolStack = ({ className }) => {
@@ -9,7 +9,7 @@ const BiographyToolStack = ({ className }) => {
 		<>
 			<Card
 				isPressable
-				isHoverable
+				isBlurred
 				className={`cursor-default grid w-full xl:max-h-80 h-fit rounded-lg p-2 justify-center col-span-2 md:col-span-1 ${className}`}
 			>
 				<header>
@@ -19,7 +19,7 @@ const BiographyToolStack = ({ className }) => {
 				</header>
 				<main className='flex flex-wrap gap-4 w-fit'>
 					{IconDataCheck.map(item => (
-						<Icon
+						<IconLink
 							className={
 								'cursor-pointer hover:animate-wiggle-more hover:animate-infinite hover:animate-duration-200'
 							}

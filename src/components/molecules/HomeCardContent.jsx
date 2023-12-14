@@ -18,6 +18,7 @@ const HomeCardBiography = ({ className, header, footer, span, img, to }) => {
 				shadow='sm'
 				className={`${className}`}
 				isPressable
+				isBlurred
 				onPress={handleClick}
 			>
 				<div className='h-full w-full grid content-between p-4'>

@@ -1,5 +1,6 @@
 export { default as AccordionComponent } from './atoms/accordion/AccordionComponent';
 export { default as Icon } from './atoms/iconComponent/Icon';
+export { default as IconLink } from './atoms/iconComponent/IconLink';
 export { default as Img } from './atoms/imgComponent/Img';
 export { default as ModalComponent } from './atoms/modalComponent/ModalComponent';
 export * from './index';

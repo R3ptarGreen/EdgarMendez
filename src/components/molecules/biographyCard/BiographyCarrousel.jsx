@@ -19,6 +19,7 @@ const BiographyCarrousel = ({ className }) => {
 		<>
 			<Card
 				isPressable
+				isBlurred
 				className={`grid w-full h-fit rounded-lg p-2 cursor-default ${className}`}
 			>
 				<header>

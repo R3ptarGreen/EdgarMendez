@@ -8,7 +8,7 @@ const ProjectsCardContainer = () => {
 	}
 
 	return (
-		<>
+		<>	
 			<ProjectsCard onPress={handlePress}/>
 		</>
 	);

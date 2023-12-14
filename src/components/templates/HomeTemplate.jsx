@@ -3,7 +3,7 @@ const HomeTemplate = () => {
 	return (
 		<div
 			className='bg-cover bg-center h-full'
-			style={{ backgroundImage: "url('/public/assets/img/homeBg.png')" }}
+			style={{ backgroundImage: "url('assets/img/homeBg.png')" }}
 		>
 			<HomeCards />
 		</div>

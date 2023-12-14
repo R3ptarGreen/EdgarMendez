@@ -7,9 +7,10 @@ const BiographyEdgar = ({ className }) => {
 		<>
 			<Card
 				className={`grid w-full xl:max-h-80 h-fit rounded-lg p-2 col-span-2 ${className}`}
+				isBlurred
 			>
 				<header>
-					<h2 className='font-secondary text-xl text-primary'>
+					<h2 className='font-secondary text-xl text-primary cursor-default'>
 						Edgar Mendez - Front-End Developer
 					</h2>
 				</header>
