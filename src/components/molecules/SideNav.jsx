@@ -8,7 +8,7 @@ const SideNav = () => {
 	const selectedInfo = socialData.info ? socialData.info: [];
 
 	return (
-		<nav className='grid  md:p-4 backdrop-blur-0 gap-4'>
+		<nav className='grid md:p-4 backdrop-blur-0 gap-4 fixed'>
 			<div className='grid md:grid-cols-2'>
 				<div className='grid gap-2'>
 					<p className='text-primary'>social</p>
