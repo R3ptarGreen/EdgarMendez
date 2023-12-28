@@ -18,7 +18,7 @@ const HomeCardInfo = ({ className }) => {
 			className={`grid content-between max-w-[50%] justify-self-end cursor-default gap-4 ${className}`}
 		>
 			<div className='grid gap-2'>
-				<p className='text-lg font-secondary text-primary'>Rescent Projects</p>
+				<p className='text-lg font-secondary text-primary'>Recent Projects</p>
 				<div
 					className='
                 h-fit w-full grid grid-rows-2 gap-2'
