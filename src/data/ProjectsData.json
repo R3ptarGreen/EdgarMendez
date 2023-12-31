@@ -1,5 +1,14 @@
 [
 	{
+		"id": "WikiCoffee",
+		"title": "WikiCoffee",
+		"img": "WikiCoffee",
+		"linkWebRepo": "https://github.com/R3ptarGreen/WikiCoffee---Project.git",
+		"linkWeb": "https://preeminent-clafoutis-155b8c.netlify.app/",
+		"description": "WikiCoffee is a simple project consuming a API of coffees with react, vitest and testing library, implementing everything I know about the framework, using external resources to consume the API like a axios",
+		"tools": ["figma", "react", "html", "sass", "vitest","testingLib","axios"]
+	},
+	{
 		"id": "ShopWave",
 		"title": "ShopWave",
 		"img": "ShopWave",

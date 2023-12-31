@@ -31,16 +31,36 @@
 	},
 	{
 		"id": "7",
-		"icon": "vite",
-		"linkWeb": "https://vitejs.dev/"
-	},
-	{
-		"id": "8",
 		"icon": "react",
 		"linkWeb": "https://es.react.dev/"
 	},
 	{
+		"id": "8",
+		"icon": "prettier",
+		"linkWeb": "https://prettier.io/"
+	},
+	{
 		"id": "9",
+		"icon": "eslint",
+		"linkWeb": "https://eslint.org/"
+	},
+	{
+		"id": "10",
+		"icon": "vite",
+		"linkWeb": "https://vitejs.dev/"
+	},
+	{
+		"id": "11",
+		"icon": "vitest",
+		"linkWeb": "https://vitest.dev/"
+	},
+	{
+		"id": "12",
+		"icon": "testingLib",
+		"linkWeb": "https://testing-library.com/"
+	},
+	{
+		"id": "13",
 		"icon": "git",
 		"linkWeb": "https://git-scm.com/"
 	}
