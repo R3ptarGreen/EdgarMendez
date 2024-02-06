@@ -1,5 +1,14 @@
 [
 	{
+		"id": "vanillaComponents",
+		"title": "Vanilla Components",
+		"img": "vanillaComponents",
+		"linkWebRepo": "https://github.com/R3ptarGreen/Vanilla-Components--Project",
+		"linkWeb": "https://zippy-malasada-01aeb6.netlify.app/",
+		"description": "As a developer, 'Practice makes perfect.' Here, I've been creating a mini components list to practice HTML/CSS/JS and improve my knowledge. You can also check the code repository on my GitHub.",
+		"tools": ["figma","html", "sass","css", "JS"]
+	},
+	{
 		"id": "WikiCoffee",
 		"title": "WikiCoffee",
 		"img": "WikiCoffee",
