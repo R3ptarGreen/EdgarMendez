@@ -1,5 +1,14 @@
 [
 	{
+		"id": "victoryFlower",
+		"title": "Victory Flower",
+		"img": "victoryFlower",
+		"linkWebRepo": "",
+		"linkWeb": "https://660564aa9a4b3a2babc11b61--loquacious-dango-7f3f25.netlify.app/",
+		"description": "Victory Flower is a project requested by a small flower company. This is a demo showcasing what was delivered to the client. Using Gsap Animations and Astro as a framework",
+		"tools": ["figma","html", "sass","", "react", "gsap", "astro", "vitest", "testingLib"]
+	},
+	{
 		"id": "vanillaComponents",
 		"title": "Vanilla Components",
 		"img": "vanillaComponents",
